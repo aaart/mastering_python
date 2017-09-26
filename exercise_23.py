@@ -20,4 +20,4 @@ def print_line(line, encoding, errors):
 
 languages = open(".\exercise_23_languages.txt", encoding="utf-8")
 
-main(languages, encoding="utf-8", error="masz_blont")
+main(languages, encoding, error)
